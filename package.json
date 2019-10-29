@@ -1,0 +1,33 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "description": "Markdown preview",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AMNeverova/markdown.git"
+  },
+  "author": "AMNeverova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMNeverova/markdown/issues"
+  },
+  "homepage": "https://github.com/AMNeverova/markdown#readme",
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0"
+  }
+}
